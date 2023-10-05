@@ -189,7 +189,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
   #page-top {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }
 .navbar-custom {
@@ -361,18 +361,19 @@ section.cards {
     padding-top: 75px;
   }
   #page-top {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 }
 
 
 
-#mainNav {
+#portfolioNav {
   background: #25272f;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  border-radius: 0px;
 }
 
 #pixeriesNav {
