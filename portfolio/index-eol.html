@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfolio">
-    <meta name="author" content="Edwin Ong">
 
     <title>Portfolio</title>
 
@@ -15,7 +14,9 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
+    <link href="css/common.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/fix-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" type="text/css">
@@ -32,9 +33,27 @@
 
 </head>
 
-<body id="page-top2" class="index">
+<body id="page-top2" class="index ">
+    <div class="navigation-wrapper">
+        <nav role="navigation" id="site-nav">
+            <div class="main-nav">
+                <span class="nav-item">
+                        <a href="http://eolvvin.github.io/index.html"><span class="nav-icon">☆</span> About</a>
+                </span>
+                <span class="nav-item">
+    					<a href="http://eolvvin.github.io/projects/index.html" title="Atom/RSS feed"><span class="nav-icon">⚙</span> Projects</a>
+    			</span>
+                <span class="nav-item">
+    					<a href="http://jettwan.github.io/portfolio/index.html"><span class="nav-icon">☰</span> Past</a>
+                </span>
+                <span class="nav-item">
+                        <a href="http://eolvvin.github.io/blog/index.html"><span class="nav-icon">✎</span> Blog</a>
+                </span>
+            </div>
+        </nav>
+    </div><!-- /.navigation-wrapper -->
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav id="portfolioNav" class="navbar navbar-default navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -76,13 +95,12 @@
     </nav>
 	
     <!-- Navigation -->
-    <nav id="page-top" class="navbar-custom">
+    <!--nav id="page-top" class="navbar-custom">
         <div class="container">
 
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+
+    </nav-->
 	
     <!-- Navigation -->
     <nav id="pixeries" class="navbar-custom">
